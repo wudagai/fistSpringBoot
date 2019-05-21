@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/kindergarten?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+
+  mvc:
+    view:
+      prefix : /WEB-INF/jsp/
+      suffix : .jsp
+
+weiJing:
+  Name: 韦婧
+  Sex:  女
+  maps: {k1:  v1,k2:  12}
+  lists:
+    - lisi
+    - zhaoliu
+  wuYueHong:  {Name:  吴粤宏，age:  18}
+
+
+
